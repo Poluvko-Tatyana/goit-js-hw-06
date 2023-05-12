@@ -21,6 +21,8 @@ const image = images.map(({url, alt}) =>
 
 galleryList.insertAdjacentHTML('beforeend', image);
 
+console.log(galleryList)
 
+galleryList.classList.add('list');
 
 
